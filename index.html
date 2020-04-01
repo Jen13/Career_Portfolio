@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="favicon.ico" >
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+    </head>
+    <body>
+<section id="home">
+    <div id="navbar">
+<!--	<div class="container">  <!-- container keeps everything aligned and centered no matter what the window size -->
+		<ul  id="menu">
+			<li><a href="#home" class="button">Home</a></li>
+			<li><a href="#about" class="button">About</a></li>
+   			<li><a href="#work" class="button">Work</a></li>
+		</ul>
+	<!--</div> <!-- end container -->
+    </div> <!-- end navbar -->
+        <div class="container">
+            <img src="img/me.jpg" alt="Justin Nixon-Hawes">
+		<p>My name is Justin Nixon-Hawes, and I am a junior in Florida State University's Information Technology bachelor of science degree program.
+		Connect with me on <a href src="https://www.linkedin.com/in/nixon-hawes">LinkedIn!</a></p>
+        </div><!--end container-->
+</section><!-- end home-->
+<section id="about">
+    <div class="container">
+        <h1>About Me</h1>
+				</div>
+		<div class="container2">
+       <p>I need test text keep this going please dont stop oh yeah baby just like that</p>
+			 <p>I need test text keep this going please dont stop oh yeah baby just like that</p>
+			 <p>I need test text keep this going please dont stop oh yeah baby just like that</p>
+		</div>
+</section><!-- end about-->
+<section id="work">
+    <div class="container">
+        <h1>Work</h1>
+    
+    </div>
+</section><!--end work-->
+
+<section id="footer">
+    <div class="container">
+        <div id="cc">
+        <table border="1px" width="200">
+                  <tr>
+                    <td bgcolor="#8C034E">&nbsp;</td>
+                    <td bgcolor="#ffffff">&nbsp;</td>
+                    <td bgcolor="#260120">&nbsp;</td>
+                  </tr>
+                  <tr>
+                      <td bgcolor="#EE05F2">&nbsp;</td>
+                      <td bgcolor="#403F3C">&nbsp;</td>
+                  </tr>
+         </table>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+         <p>Copyright, 2019, <a href=mailto"justinhawes1@aol.com">Justin Nixon-Hawes</a></p>
+    </div>
+    </div>
+</section><!--footer-->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+</script>
+    </body>
+</html>
