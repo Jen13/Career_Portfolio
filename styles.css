@@ -38,13 +38,15 @@ body{
   background-color: rgba(120, 120, 140, 0.8);
 }
 #work{
-  
+  height:auto;
   padding-top: 60px;
   background-color: #777788;
   color: #ddd;
 }
 
-
+#work img {
+ 
+}
 
 #footer{
     background-color: #403F3C;
