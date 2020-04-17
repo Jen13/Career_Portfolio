@@ -94,7 +94,7 @@ ul#menu {
 	list-style: none; /* eliminates bullets */
 	/* adjust padding top to adjust nav bar vertical position */
 	padding-top: 0px;
-  padding-left: 78%;
+  padding-left: 50%;
   padding-right: 0px;
 } 
 ul#menu li {
