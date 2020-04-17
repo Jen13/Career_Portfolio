@@ -34,7 +34,7 @@ body{
     color: #ddd;
 }
 #about p {
-  height: 700px;
+  /*height: 700px; */
   width: 15%;
   font-size: 18px;
   float: left;
