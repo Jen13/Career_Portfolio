@@ -9,7 +9,9 @@ body{
 
 }
 #home img{
-  margin: 20%, auto;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #home p {
   margin-top: 75px;
@@ -17,7 +19,8 @@ body{
   color: #ddd;
   height: 90px;
   background-color: rgba(60,60,70,.8);
-  text-align: center;  
+  text-align: center;
+  padding: 5px, 5px, 0px, 5px;
 }
 #about{
     padding-top: 60px;
@@ -108,6 +111,6 @@ ul#menu li a.button {
 	padding: 30px 30px 15px 30px; 
 }
 ul#menu li a.button:hover {
-	background-color: rgba(238, 180, 5, 0.5);
+	background-color: rgba(238, 100, 5, 0.5);
   color: #ddd;
 }
