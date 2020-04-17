@@ -4,7 +4,7 @@ body{
     font-family: helvetica, arial, sans-serif;
 }
 #home{
-    height: 1000px;
+    height: 100%;
     background-color: #777788;
 
 }
@@ -103,13 +103,13 @@ ul#menu li {
 	padding-bottom: 20px;
 } 
 ul#menu li a.button {
-    color:#000;
+    color:#ddd;
 	font-size: 20px;
   font-style: heavy;
 	text-decoration: none;
 	padding: 30px 30px 15px 30px; 
 }
 ul#menu li a.button:hover {
-	background-color: rgba(238, 5, 242, 0.5);
+	background-color: rgba(238, 242, 5, 0.5);
   color: #ddd;
 }
