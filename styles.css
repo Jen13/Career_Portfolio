@@ -3,6 +3,12 @@ body{
     margin: 0;
     font-family: helvetica, arial, sans-serif;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 #home{
     height: 100%;
     background-color: #777788;
@@ -10,7 +16,7 @@ body{
 }
 #home img{
   margin-top: 10%;
-  margin-left: 20%
+  
 }
 #home p {
   margin-top: 75px;
@@ -32,7 +38,7 @@ body{
   width: 15%;
   font-size: 18px;
   float: left;
-  margin-left: 20%;
+  margin-left: 10%;
   /*margin-right: 2.5%; */
   padding-left: 10px;
   padding-right: 10px;
