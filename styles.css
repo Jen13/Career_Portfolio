@@ -29,7 +29,7 @@ body{
 }
 #about{
     padding-top: 60px;
-    height:1000px;
+    height:100%;
     background-color: rgba(80,80,90,1.0);
     color: #ddd;
 }
